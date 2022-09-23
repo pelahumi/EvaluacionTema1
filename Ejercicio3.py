@@ -1,6 +1,6 @@
 def rango(a, b, c):
     for i in range(a, b, c):
-        print(i)
+        print(i ,end=" ")
 
 #Forma recursiva
 
@@ -9,17 +9,17 @@ def rango_recursivo(a, b, c):
     i = 0
 
     if n == 0:
-        return print(a)
+        return print(a, end=" ")
     
     elif i == 0:
-        print(b)
+        print(b, end=" ")
         i = i + 1
         return rango_recursivo(a, b - c, c)
 
     else:
         n = b - c
         i = i + 1
-        print(n)
+        print(n, end=" ")
         return rango_recursivo(a, b - c, c)
 
 
