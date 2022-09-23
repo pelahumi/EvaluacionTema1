@@ -8,10 +8,11 @@ matriz = [
 
 
 def suma_matriz(matriz):
-    i = 1
-    matriz[i][-1] = sum(matriz[0][:-1])
+
+    matriz[1][-1] = sum(matriz[1][:-1])
+    matriz[3][-1] = sum(matriz[3][:-1])
     
-    
+    return print(matriz)
 
 suma_matriz(matriz)
     
