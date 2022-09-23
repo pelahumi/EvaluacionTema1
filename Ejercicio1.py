@@ -9,7 +9,9 @@ matriz = [
 
 def suma_matriz(matriz):
     for i in matriz:
-        matriz[1][-1] = sum(matriz[1][:-1])
+        i = 1
+        matriz[i][-1] = sum(matriz[1][:-1])
+        i = i +1
     
     return matriz
 
