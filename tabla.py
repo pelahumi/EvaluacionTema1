@@ -5,6 +5,9 @@ def comprobacion(a):
         raise ValueError("Los números tienen que estar comprendidos entre 1 y 9")
 
 def tabla(a, b):
+    a = input(int("Introduce el número de filas"))
+    b = input(int("Introduce el número de columnas"))
+
     if a == "" or b == "":
         print("Hay que meter dos números entre el 1 y el 9") 
     
