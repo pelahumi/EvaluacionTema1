@@ -26,13 +26,28 @@ def lanzador():
     rango(0, 20, 2)
 
     print("Números impares del -20 al 0")
-    rango(-20, 0, 1)
+    rango(-19, 0, 2)
 
     print("Números múltiplos de 5 del 0 al 50")
     rango(0, 50, 5)
 
+    #####
     print("Ejercicio 3 de forma recursiva:", "\n")
-    rango_recursivo()
+    #####
+    print("Números del 0 al 10")
+    rango_recursivo(0, 10, 1)
+
+    print("Números del -10 al 0")
+    rango_recursivo(-10, 0, 1)
+
+    print("Números pares del 0 al 20")
+    rango_recursivo(0, 20, 2)
+
+    print("Números impares del -20 al 0")
+    rango_recursivo(-19, 0, 2)
+
+    print("Números múltiplos de 5 del 0 al 50")
+    rango_recursivo(0, 50, 5)
 
     #Ejercicio 4
     tabla()
