@@ -11,9 +11,11 @@ def tabla(a, b):
     comprobacion(a)
     comprobacion(b)
 
-    for i in range(a):
+    for i in range(1, a):
         for j in range(b):
-            print("*",end="")
+            print("* ", end="")
+        print()
 
-tabla(2,2)
 
+
+tabla(5, 5)

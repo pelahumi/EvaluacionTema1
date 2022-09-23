@@ -22,5 +22,5 @@ def rango_recursivo(a, b, c):
         print(n)
         return rango_recursivo(a, b - c, c)
 
-rango_recursivo(0, 20, 5)
+
 
