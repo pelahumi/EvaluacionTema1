@@ -4,7 +4,7 @@ def comprobacion(a):
     else:
         raise ValueError("Los números tienen que estar comprendidos entre 1 y 9")
 
-def tabla(a, b):
+def tabla():
     a = input(int("Introduce el número de filas"))
     b = input(int("Introduce el número de columnas"))
 
@@ -21,4 +21,3 @@ def tabla(a, b):
 
 
 
-tabla(5, 5)
