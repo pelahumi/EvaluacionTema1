@@ -6,4 +6,3 @@ def longitud():
     else:
         return False
 
-print(longitud())
